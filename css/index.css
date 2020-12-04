@@ -42,7 +42,7 @@ header{
     margin-top: 3%;
 }
 .logo img{
-    margin-left:13%;
+    margin-left:10%;
 }
 nav{
     width: 100%;
@@ -51,7 +51,7 @@ nav{
     align-items: center;
 }
 nav a{
-    margin-left: 10%;
+    margin-left: 12%;
     text-decoration: none;
     color: black;
 }
@@ -134,14 +134,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.boxes :nth-child(1){
+    background-color:teal;
+}
+.boxes :nth-child(2){
+    background-color:gold;
+}
+.boxes :nth-child(3){
+    background-color:cadetblue;
+}
+.boxes :nth-child(4){
+    background-color:coral;
+}
+.boxes :nth-child(5){
+    background-color:crimson;
+}
+.boxes :nth-child(6){
+    background-color:forestgreen;
+}
+.boxes :nth-child(7){
+    background-color:darkorchid;
+}
+.boxes :nth-child(8){
+    background-color:hotpink;
+}
+.boxes :nth-child(9){
+    background-color:indigo;
+}
+.boxes :nth-child(10){
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -173,4 +201,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.top-content .about-text{
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
