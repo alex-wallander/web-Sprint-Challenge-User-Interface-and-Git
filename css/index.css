@@ -206,3 +206,22 @@ footer nav a {
     margin-left: 2%;
     margin-bottom: 2%;
 }
+.middle-about{
+    width: 49%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    border-bottom: 1px dashed black;
+    margin-left: 5%;
+}
+.bottom-about{
+    width: 49%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    border-bottom: 1px dashed black;
+    margin-right: 5%;
+}
+.textabout{
+    
+}
