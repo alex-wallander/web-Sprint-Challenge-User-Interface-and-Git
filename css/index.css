@@ -207,25 +207,27 @@ footer nav a {
     margin-bottom: 2%;
 }
 .middle-about{
-    width: 49%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    width: 100%;
     display: flex;
-    border-bottom: 1px dashed black;
-    margin-left: 5%;
+    justify-content: space-between;
+    border-bottom: none;
 }
 .bottom-about{
-    width: 49%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+    margin-top:6%;
+}
+.image-left{
+    width: 48%;
+    margin-left: 8px;
     border-bottom: 1px dashed black;
-    margin-left: 5%;
 }
-.imageabout{
 
-}
-.textabout{
+.image-right{
+    width: 48%;
+    border-bottom: 1px dashed black;
 
 }
 .learn{
@@ -235,4 +237,11 @@ footer nav a {
     width: 29%;
     padding: 2px 2px 2px 2px;
     margin-right: 50%;
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+.about-text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 1.4;
 }
