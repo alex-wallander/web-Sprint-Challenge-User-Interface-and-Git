@@ -220,8 +220,19 @@ footer nav a {
     flex-wrap: wrap;
     display: flex;
     border-bottom: 1px dashed black;
-    margin-right: 5%;
+    margin-left: 5%;
+}
+.imageabout{
+
 }
 .textabout{
-    
+
+}
+.learn{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 29%;
+    padding: 2px 2px 2px 2px;
+    margin-right: 50%;
 }
